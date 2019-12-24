@@ -16,16 +16,16 @@ Authentication
 
 POST <https://app.holaspirit.com/oauth/v2/token>
 
-#### Parameters
+#### From email and password
 
 | Name            | Type   | Description                                   |
 | --------------- | ------ | --------------------------------------------- |
 | `client_id`     | string | **Required** OAuth2 Client ID                 |
-| `client_secret` | string | OAuth2 Client secret                          |
-| `grant_type`    | string | OAuth2 grant type (password or refresh_token) |
-| `username`      | string | Username                                      |
-| `password`      | string | Password                                      |
-| `timezone`      | string | Timezone (e.g.: "+02:00")                     |
+| `client_secret` | string | The OAuth2 Client secret                      |
+| `grant_type`    | string | **Required** "password"                       |
+| `username`      | string | **Required** The Email                        |
+| `password`      | string | **Required** The Password                     |
+| `timezone`      | string | The Timezone (e.g.: "+02:00")                 |
 
 The client secret is not required for a public app (e.g. the AngularJS frontend).
 
@@ -33,6 +33,17 @@ The default and public Client ID is:
 `54cb79d0279871e1248b4567_400tdzqbdcowsskk08gws0wkwogck00w084w4s8w8gok08s0o8`.
 
 To have your own `client_id` / `client_secret` ask the assistance in <https://app.holaspirit.com>
+
+#### From a refresh_token
+
+If you already know the `refresh_token` for the current user, it's recommanded that you ask a new `access_token` with:
+
+| Name            | Type   | Description                                   |
+| --------------- | ------ | --------------------------------------------- |
+| `client_id`     | string | **Required** OAuth2 Client ID                 |
+| `client_secret` | string | OAuth2 Client secret                          |
+| `grant_type`    | string | **Required** "refresh_token"                  |
+| `refresh_token` | string | **Required** The `refresh_token`              |
 
 #### Response
 
