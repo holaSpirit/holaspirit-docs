@@ -36,7 +36,7 @@ To have your own `client_id` / `client_secret` ask the assistance in <https://ap
 
 #### From a refresh_token
 
-If you already know the `refresh_token` for the current user, it's recommanded that you ask a new `access_token` with:
+If you already have a `refresh_token`, it's recommended that you ask a new `access_token` with:
 
 | Name            | Type   | Description                                   |
 | --------------- | ------ | --------------------------------------------- |
@@ -44,6 +44,18 @@ If you already know the `refresh_token` for the current user, it's recommanded t
 | `client_secret` | string | OAuth2 Client secret                          |
 | `grant_type`    | string | **Required** "refresh_token"                  |
 | `refresh_token` | string | **Required** The `refresh_token`              |
+
+Each `refresh_token` can only be used once. If you try the same request the second call will fail.
+
+The response will give you 2 tokens:
+
+* an `access_token` that you can use to make some requests
+* a `refresh_token` that will be useful after the current `access_token` expires to request a new token
+
+A `refresh_token` expires in 2 cases :
+
+* When it is used to request an `access_token`
+* When the member's password is changed
 
 #### Response
 
