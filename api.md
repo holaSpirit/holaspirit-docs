@@ -1,6 +1,8 @@
 API documentation
 =================
 
+[<<< Back](README.md)
+
 The detail of all endpoints of the API is available on: <https://app.holaspirit.com/api/doc/>.
 
 ### Headers
