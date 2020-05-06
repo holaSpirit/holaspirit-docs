@@ -52,6 +52,12 @@ These field use to contain Markdown code, from now on they contain HTML code.
 
 OKRs now have a "parent" field, this can be used to create a tree of OKRs.
 
+## 30 April 2020
+
+### Improvements:
+
+The body field of objects now accepts HTML code https://www.loom.com/share/d39a9e67efee4b8fb202e43b97954ceb
+
 ## 01 April 2020
 
 ### Improvements:
@@ -100,10 +106,3 @@ Tensions have a "draft" status
 ### Improvements:
 
 Add "policies" attribute on roles
-
-## 30 April 2020
-
-### Improvements:
-
-Edit "description field"
-https://www.loom.com/share/d39a9e67efee4b8fb202e43b97954ceb
