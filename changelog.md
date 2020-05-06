@@ -1,3 +1,57 @@
+## Date TBD
+
+### Modification of API
+
+Removal of the fields:
+
+- checklist.htmlBody
+- action.htmlBody
+- project.htmlBody
+- publication.htmlBody
+- metric.htmlBody
+- strategy.htmlBody
+- policy.htmlBody
+- tension.htmlBody
+- user.htmlBiography
+
+Use the fields:
+
+- checklist.body
+- action.body
+- project.body
+- publication.body
+- metric.body
+- strategy.body
+- policy.body
+- tension.body
+- user.biography
+
+instead.
+
+## Date TBD
+
+### Modification of API
+
+Modification of the fields:
+
+- checklist.body
+- action.body
+- project.body
+- publication.body
+- metric.body
+- strategy.body
+- policy.body
+- tension.body
+- user.biography
+
+These field use to contain Markdown code, from now on they contain HTML code.
+
+## 6 May 2020
+
+### Improvements:
+
+OKRs now have a "parent" field, this can be used to create a tree of OKRs.
+
 ## 01 April 2020
 
 ### Improvements:
