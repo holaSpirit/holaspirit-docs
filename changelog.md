@@ -33,7 +33,7 @@ Use the fields:
 
 instead.
 
-## Date TBD
+## 11 May 2020
 
 ### Modification of API
 
