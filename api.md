@@ -131,6 +131,8 @@ Empty response (status code: 200)
 * **GET** <https://app.holaspirit.com/api/me?access_token=#################>
 * **POST** <https://app.holaspirit.com/api/me><br>
   Header: `Authorization: Bearer #################`
+  
+Warning: If a token is passed in the parameters AND in the headers for the same request, the request will fail.
 
 Errors
 ------
