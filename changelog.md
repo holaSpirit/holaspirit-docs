@@ -30,9 +30,9 @@ Removal of all **public** endpoints for operations:
 
 These URLs will return a 404.
 
-These information will only be available for the authenticated members, trough the **private**.
+These information will only be available for the authenticated members, trough the **private** API.
 
-(For organizations who have not chosen to be public, this changes nothing)
+(For organizations who have not changed their setting to be public, this changes nothing)
 
 ## Date TBD
 
