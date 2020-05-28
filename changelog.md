@@ -33,6 +33,22 @@ Use the fields:
 
 instead.
 
+## 8 June 2020
+
+### Removal of the "private" field in Projects
+
+`private` is no longer a parameter in endpoints: 
+
+* POST /api/organizations/{organization_id}/projects
+* PUT /api/organizations/{organization_id}/projects/{project_id}
+* PATCH /api/organizations/{organization_id}/projects/{project_id}
+
+`private` is also removed in the output of the Project objects.
+
+`showPrivate` is no longer a parameter in endpoint: 
+
+* GET /api/organizations/{organization_id}/projects
+
 ## 11 May 2020
 
 ### Modification of API
