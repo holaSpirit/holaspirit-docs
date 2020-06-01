@@ -33,6 +33,18 @@ Use the fields:
 
 instead.
 
+## Date TBD
+
+### Removal of video integrations at the organization level
+
+* GET /api/organizations/{organization_id}/integrations
+* POST /api/organizations/{organization_id}/integrations
+* DELETE /api/organizations/{organization_id}/integrations/{integration_id}
+* POST /api/organizations/{organization_id}/governances/{meeting_id}/integrations
+* POST /api/organizations/{organization_id}/tacticals/{meeting_id}/integrations
+
+Use the `videoConfUrl` field in the meeting instead
+
 ## 8 June 2020
 
 ### Removal of the "private" field in Projects
