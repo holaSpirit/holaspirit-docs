@@ -45,6 +45,16 @@ instead.
 
 Use the `videoConfUrl` field in the meeting instead
 
+## 9 June 2020
+
+### Removal of meetingType parameter in tensions
+
+* GET /api/organizations/{organization_id}/tensions
+
+`meetingType` parameter is removed, use `tensionType` instead.
+
+In all the output of Tensions, `meetingType` is removed, use `tensionType` instead.
+
 ## 8 June 2020
 
 ### Removal of the "private" field in Projects
