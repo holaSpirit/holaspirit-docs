@@ -33,9 +33,11 @@ Use the fields:
 
 instead.
 
-## Date TBD
+## 15 June 2020
 
 ### Removal of video integrations at the organization level
+
+Removal of the endpoints:
 
 * GET /api/organizations/{organization_id}/integrations
 * POST /api/organizations/{organization_id}/integrations
@@ -43,7 +45,7 @@ instead.
 * POST /api/organizations/{organization_id}/governances/{meeting_id}/integrations
 * POST /api/organizations/{organization_id}/tacticals/{meeting_id}/integrations
 
-Use the `videoConfUrl` field in the meeting instead
+Use the `videoConfUrl` field in the meeting instead.
 
 ## 9 June 2020
 
