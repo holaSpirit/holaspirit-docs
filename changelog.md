@@ -33,7 +33,7 @@ Use the fields:
 
 instead.
 
-## Date TBD
+## 15 June 2020
 
 ### Removal of video integrations at the organization level
 
