@@ -33,6 +33,18 @@ Use the fields:
 
 instead.
 
+## 16 June 2020
+
+### Removal of some settings in create organization
+
+The following settings are removed from `POST /api/organizations`
+
+* enableEmails
+* enableAnchorCircleLeadLink
+* enableObjectionReason
+
+They are still available in `PATCH /api/organizations/{organization_id}`
+
 ## 15 June 2020
 
 ### Removal of video integrations at the organization level
