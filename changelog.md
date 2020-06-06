@@ -42,6 +42,7 @@ The following settings are removed from `POST /api/organizations`
 * enableEmails
 * enableAnchorCircleLeadLink
 * enableObjectionReason
+* gogDurationDays
 
 They are still available in `PATCH /api/organizations/{organization_id}`
 
