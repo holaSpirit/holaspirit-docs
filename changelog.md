@@ -3,37 +3,6 @@ API changelog
 
 [<<< Back](README.md)
 
-## ?? June 2020
-
-Removal of all **public** endpoints for operations:
-
-* GET /api/public/organizations/{organization_slug}/actions
-* GET /api/public/organizations/{organization_slug}/actions/{action_id}
-* GET /api/public/organizations/{organization_slug}/badges
-* GET /api/public/organizations/{organization_slug}/badges/{badge_id}
-* GET /api/public/organizations/{organization_slug}/checklists
-* GET /api/public/organizations/{organization_slug}/checklists/{checklist_id}
-* GET /api/public/organizations/{organization_slug}/governances
-* GET /api/public/organizations/{organization_slug}/governances/{meeting_id}
-* GET /api/public/organizations/{organization_slug}/metrics
-* GET /api/public/organizations/{organization_slug}/metrics/{metric_id}
-* GET /api/public/organizations/{organization_slug}/okrs
-* GET /api/public/organizations/{organization_slug}/okrs/{okr_id}
-* GET /api/public/organizations/{organization_slug}/projects
-* GET /api/public/organizations/{organization_slug}/projects/{project_id}
-* GET /api/public/organizations/{organization_slug}/publications
-* GET /api/public/organizations/{organization_slug}/publications/{publication_id}
-* GET /api/public/organizations/{organization_slug}/tacticals
-* GET /api/public/organizations/{organization_slug}/tacticals/{meeting_id}
-* GET /api/public/organizations/{organization_slug}/tacticals/{meeting_id}/issues
-* GET /api/public/organizations/{organization_slug}/webhooks
-
-These URLs will return a 404.
-
-These information will only be available for the authenticated members, trough the **private** API.
-
-(For organizations who have not changed their setting to be public, this changes nothing)
-
 ## Date TBD
 
 ### Modification of API
@@ -65,6 +34,35 @@ Use the fields:
 instead.
 
 ## 16 June 2020
+
+### Removal of all **public** endpoints for operations:
+
+* GET /api/public/organizations/{organization_slug}/actions
+* GET /api/public/organizations/{organization_slug}/actions/{action_id}
+* GET /api/public/organizations/{organization_slug}/badges
+* GET /api/public/organizations/{organization_slug}/badges/{badge_id}
+* GET /api/public/organizations/{organization_slug}/checklists
+* GET /api/public/organizations/{organization_slug}/checklists/{checklist_id}
+* GET /api/public/organizations/{organization_slug}/governances
+* GET /api/public/organizations/{organization_slug}/governances/{meeting_id}
+* GET /api/public/organizations/{organization_slug}/metrics
+* GET /api/public/organizations/{organization_slug}/metrics/{metric_id}
+* GET /api/public/organizations/{organization_slug}/okrs
+* GET /api/public/organizations/{organization_slug}/okrs/{okr_id}
+* GET /api/public/organizations/{organization_slug}/projects
+* GET /api/public/organizations/{organization_slug}/projects/{project_id}
+* GET /api/public/organizations/{organization_slug}/publications
+* GET /api/public/organizations/{organization_slug}/publications/{publication_id}
+* GET /api/public/organizations/{organization_slug}/tacticals
+* GET /api/public/organizations/{organization_slug}/tacticals/{meeting_id}
+* GET /api/public/organizations/{organization_slug}/tacticals/{meeting_id}/issues
+* GET /api/public/organizations/{organization_slug}/webhooks
+
+These URLs will return a 404.
+
+These information will only be available for the authenticated members, trough the **private** API.
+
+(For organizations who have not changed their setting to be public, this changes nothing)
 
 ### Removal of some settings in create organization
 
