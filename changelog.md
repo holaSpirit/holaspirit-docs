@@ -33,6 +33,12 @@ Use the fields:
 
 instead.
 
+## 27 July 2020
+
+### Removal of `link` field in action, publication and strategy
+
+Create an HTML link inside the `description` field instead
+
 ## 16 June 2020
 
 ### Removal of all **public** endpoints for operations:
