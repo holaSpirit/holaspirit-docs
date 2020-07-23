@@ -39,6 +39,8 @@ instead.
 
 Create an HTML link inside the `description` field instead
 
+### Removal of endpoint `GET https://app.holaspirit.com/api/public/xlsx/organizations/{organization_id}/circles/{circle_id}/data`
+
 ## 16 June 2020
 
 ### Removal of all **public** endpoints for operations:
