@@ -3,6 +3,30 @@ API changelog
 
 [<<< Back](README.md)
 
+## 5 October 2020
+
+### Modification of webhooks format
+
+For actions, projects, checklists & metrics:
+
+The members are now listed inside an array, with the form:
+
+```
+    "members": [
+        {
+            "id": "5f7139d99b62fd692133406f",
+            "member": "John Doe",
+            "action": "assign"
+        },
+        {
+            "id": "5f7139d99b62fd6921334070",
+            "member": "Jane Doe",
+            "action": "assign"
+        }
+    ],
+
+```
+
 ## 10 September 2020
 
 ### Modification of API
