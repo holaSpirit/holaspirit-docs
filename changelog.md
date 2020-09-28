@@ -3,7 +3,7 @@ API changelog
 
 [<<< Back](README.md)
 
-## Date TBD
+## 10 September 2020
 
 ### Modification of API
 
