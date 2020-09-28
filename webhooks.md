@@ -19,7 +19,18 @@ Project (creation/update) :
 'body' : 'description field of the project',
 'link' : 'link field of the project',
 'circle' : 'id of the circle',
-'author_name' : 'Name of member assigned to the project',
+ 'members': [
+        {
+            "id": "5f7139d99b62fd692133406f",
+            "member": "John Doe",
+            "action": "assign"
+        },
+        {
+            "id": "5f7139d99b62fd6921334070",
+            "member": "Jane Doe",
+            "action": "assign"
+        }
+    ]
 'role' : 'Name of the role',
 'status' : 'current' or 'waiting' or 'future' or 'done',
 'url' : 'Link to the project'
@@ -34,7 +45,13 @@ Action (creation/update) :
 'body' : 'description field of the action',
 'link' : 'link field of the action',
 'circle' : 'id of the circle',
-'author_name' : 'Name of member assigned to the action',
+ 'members': [
+        {
+            "id": "5f7139d99b62fd692133406f",
+            "member": "John Doe",
+            "action": "assign"
+        }
+    ]
 'role' : 'Name of the role',
 'status' : 'current' or 'done'
 }
@@ -48,7 +65,13 @@ Checklist (creation/update) :
 'body' : 'description field of the checklist',
 'link' : 'link field of the checklist',
 'circle' : 'id of the circle',
-'member' : 'Name of assigned members',
+'members': [
+        {
+            "id": "5f7139d99b62fd692133406f",
+            "member": "John Doe",
+            "action": "assign"
+        }
+    ]
 'role' : 'Name of the role',
 'recurrence' : 'daily ... yearly',
 'last_checked' : 'last time the checklist was checked during a tactical meeting'
@@ -63,7 +86,13 @@ Metric (creation/update) :
 'body' : 'description field of the metric',
 'link' : 'link field of the metric',
 'circle' : 'id of the circle',
-'member' : 'Name of assigned members',
+'members': [
+        {
+            "id": "5f7139d99b62fd692133406f",
+            "member": "John Doe",
+            "action": "assign"
+        }
+    ]
 'role' : 'Name of the role',
 'recurrence' : 'daily ... yearly',
 'last_checked' : 'last time the metric was checked during a tactical meeting'
