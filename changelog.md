@@ -3,6 +3,19 @@ API changelog
 
 [<<< Back](README.md)
 
+## 13 February 2021
+
+### Removal of old meeting endpoints
+
+All endpoints with URLs starting with:
+
+* /api/organizations/{organization_id}/governances 
+* /api/organizations/{organization_id}/tacticals 
+
+are removed, you should use the ones starting with: 
+
+* /api/organizations/{organization_id}/meetings 
+
 ## 5 October 2020
 
 ### Modification of webhooks format
