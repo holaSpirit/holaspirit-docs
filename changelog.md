@@ -16,6 +16,10 @@ are removed, you should use the ones starting with:
 
 * /api/organizations/{organization_id}/meetings 
 
+### Removal of tensionType attribute in tension
+
+`tensionType` has be removed in the input and the output of tensions.
+
 ## 5 October 2020
 
 ### Modification of webhooks format
