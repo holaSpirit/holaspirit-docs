@@ -11,7 +11,7 @@ API changelog
 * /api/public/xlsx/organizations/{organization_id}/roles
 * /api/public/xlsx/organizations/{organization_id}/stats
 
-You can download the same data using the new endpoint as explained in : [download-export.md]
+You can download the same data using the new endpoint as explained in: [download-export.md]
 
 This will fix the intermittant "Gateway errors".
 
