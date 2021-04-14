@@ -3,6 +3,14 @@ API changelog
 
 [<<< Back](README.md)
 
+## 19 April 2021
+
+### Removal of deprecated spreadsheet endpoints
+
+* /api/public/xlsx/organizations/{organization_id}/data
+* /api/public/xlsx/organizations/{organization_id}/roles
+* /api/public/xlsx/organizations/{organization_id}/stats
+
 ## 13 February 2021
 
 ### Removal of old meeting endpoints
