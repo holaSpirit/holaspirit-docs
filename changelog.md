@@ -3,6 +3,18 @@ API changelog
 
 [<<< Back](README.md)
 
+## 19 April 2021
+
+### Removal of deprecated spreadsheet endpoints
+
+* /api/public/xlsx/organizations/{organization_id}/data
+* /api/public/xlsx/organizations/{organization_id}/roles
+* /api/public/xlsx/organizations/{organization_id}/stats
+
+You can download the same data using the new endpoint as explained in: [download-export.md]
+
+This will fix the intermittant "Gateway errors".
+
 ## 13 February 2021
 
 ### Removal of old meeting endpoints
