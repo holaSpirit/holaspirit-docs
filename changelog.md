@@ -3,7 +3,7 @@ API changelog
 
 [<<< Back](README.md)
 
-## 19 April 2021
+## 3 May 2021
 
 ### Removal of deprecated spreadsheet endpoints
 
