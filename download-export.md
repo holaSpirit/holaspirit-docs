@@ -42,13 +42,16 @@ Now you need to wait for the task to finish.
 
 Depending on the size of you organization, the export might take from a few seconds to a few minutes.
 
-You need to check the status with: (check only the task with the id you created in Step 1)
+You need to check the status with: (check only the task with the `id` you created in Step 1)
 
 ```
-GET https://app.holaspirit.com/api/organizations/{organization_id}/tasks
+GET https://app.holaspirit.com/api/organizations/{organization_id}/tasks/{task_id}
 ```
+([See documentation](http://localhost:8080/api/doc/organization#get--api-organizations-{organization_id}-tasks-{task_id}))
 
 When the status is `done` you can go to the next step. If the status is still `current`, wait a little and try again.
+
+The task is available for 1 week, after that it is deleted.
 
 ### Step 3
 
