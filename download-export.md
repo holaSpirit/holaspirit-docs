@@ -47,7 +47,7 @@ You need to check the status with: (check only the task with the `id` you create
 ```
 GET https://app.holaspirit.com/api/organizations/{organization_id}/tasks/{task_id}
 ```
-([See documentation](http://localhost:8080/api/doc/organization#get--api-organizations-{organization_id}-tasks-{task_id}))
+([See documentation](https://app.holaspirit.com/api/doc/organization#get--api-organizations-{organization_id}-tasks-{task_id}))
 
 When the status is `done` you can go to the next step. If the status is still `current`, wait a little and try again.
 
