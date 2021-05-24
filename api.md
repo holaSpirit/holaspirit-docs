@@ -11,7 +11,16 @@ This is a JSON only API. You should supply a `Content-Type: application/json`
 header on POST, PUT, PATCH and DELETE operations. You should set a `Accept: application/json`
 header on all requests.
 
-Authentication
+Read Only Access
+-------------
+
+If you need a read-only access to the API, just ask for a read-only access token to the assistance in <https://app.holaspirit.com>
+
+With this token information you can simply use every GET endpoint of your organization, as described in [Access token usage](#access-token-usage)
+
+If you need a read-write access, read the next paragraph.
+
+Authentication for Read-Write
 --------------
 
 ### Obtain an access token
