@@ -18,7 +18,7 @@ If you need a read-only access to the API, just ask for a read-only access token
 
 With this token information you can simply use every GET endpoint of your organization, as described in [Access token usage](#access-token-usage)
 
-If you need a read-write access, read the next paragraph.
+If you need a read-write access, read the next section.
 
 Authentication for Read-Write
 --------------
