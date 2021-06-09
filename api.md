@@ -38,7 +38,7 @@ POST <https://app.holaspirit.com/oauth/v2/token>
 | `password`      | string | **Required** The Password                     |
 | `timezone`      | string | The Timezone (e.g.: "+02:00")                 |
 
-The client secret is not required for a public app (e.g. the AngularJS frontend).
+The client secret is not required for a public app (e.g. our web and mobile app).
 
 The default and public Client ID is:
 `54cb79d0279871e1248b4567_400tdzqbdcowsskk08gws0wkwogck00w084w4s8w8gok08s0o8`.
@@ -55,6 +55,8 @@ If you already have a `refresh_token`, it's recommended that you ask a new `acce
 | `client_secret` | string | OAuth2 Client secret                          |
 | `grant_type`    | string | **Required** "refresh_token"                  |
 | `refresh_token` | string | **Required** The `refresh_token`              |
+
+**Warning:** This is only possible when using the same `client_id` and `client_secret` that created the `refresh_token` in the first place.
 
 Each `refresh_token` can only be used once. If you try the same request the second call will fail.
 
