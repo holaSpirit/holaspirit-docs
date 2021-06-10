@@ -45,6 +45,13 @@ The default and public Client ID is:
 
 To have your own `client_id` / `client_secret` ask the assistance in <https://app.holaspirit.com>
 
+CURL example with email and password:
+
+```
+curl 'https://app.holaspirit.com/oauth/v2/token' \
+--data-raw 'client_id=54cb79d0279871e1248b4567_400tdzqbdcowsskk08gws0wkwogck00w084w4s8w8gok08s0o8&grant_type=password&username=****&password=****'
+```
+
 #### From a refresh_token
 
 If you already have a `refresh_token`, it's recommended that you ask a new `access_token` with:
@@ -65,10 +72,11 @@ The response will give you 2 tokens:
 * an `access_token` that you can use to make some requests
 * a `refresh_token` that will be useful after the current `access_token` expires to request a new token
 
-A `refresh_token` expires in 2 cases :
+A `refresh_token` expires:
 
 * When it is used to request an `access_token`
 * When the member's password is changed
+* 1 year after it has been issued
 
 #### Response
 
@@ -139,11 +147,30 @@ Empty response (status code: 200)
 
 ### Access token usage
 
-* **GET** <https://app.holaspirit.com/api/me?access_token=#################>
-* **POST** <https://app.holaspirit.com/api/me><br>
-  Header: `Authorization: Bearer #################`
+The token should be send in the headers of the Request: Header: `Authorization: Bearer #################` (this works for all types of requests: GET POST PATCH PUT and DELETE)
+
+For GET there is also the option to add the token as a parameter: <https://app.holaspirit.com/api/me?access_token=#################>
   
 Warning: If a token is passed in the parameters AND in the headers for the same request, the request will fail.
+
+CURL GET example (token in the headers): 
+
+```
+curl 'https://app.holaspirit.com/api/organizations/********' \
+-H 'Accept: application/json' \
+-H 'Content-type: application/json' \
+-H 'Authorization: Bearer #################'
+```
+
+CURL POST example: 
+
+```
+curl 'https://holon.holaspirit.com/api/organizations/********/custom-fields' \
+-H 'Accept: application/json' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer #################' \
+--data-raw '{"name":"testCF","customFieldType":"text","applyTo":"role"}'
+```
 
 Errors
 ------
