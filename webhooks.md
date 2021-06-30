@@ -36,6 +36,31 @@ Project (creation/update) :
 'url' : 'Link to the project'
 }
 ```
+OKR (creation/update) :
+```
+{
+'object' : 'objective',
+'text' : 'description of the event',
+'title' : 'title field of the OKR',
+'body' : 'description field of the OKR',
+'circle' : 'id of the circle',
+ 'members': [
+        {
+            "id": "5f7139d99b62fd692133406f",
+            "member": "John Doe",
+            "action": "assign"
+        },
+        {
+            "id": "5f7139d99b62fd6921334070",
+            "member": "Jane Doe",
+            "action": "assign"
+        }
+    ]
+'role' : 'Name of the role',
+'status' : 'current' or 'done',
+'url' : 'Link to the OKR'
+}
+```
 Action (creation/update) :
 ```
 {
