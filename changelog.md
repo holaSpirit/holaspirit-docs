@@ -3,6 +3,18 @@ API changelog
 
 [<<< Back](README.md)
 
+## Date TBD
+
+### Deprecation of the following endpoints:
+
+* GET /api/organizations/{organization_id}/meetings/{meeting_id}/tensions
+* POST /api/organizations/{organization_id}/meetings/{meeting_id}/tensions
+* DELETE /api/organizations/{organization_id}/meetings/{meeting_id}/tensions/{tension_id}
+* GET /api/organizations/{organization_id}/meetings/{meeting_id}/tensions/{tension_id}
+* PATCH /api/organizations/{organization_id}/meetings/{meeting_id}/tensions/{tension_id}
+
+You must use the endpoints without `meetings/{meeting_id}` instead.
+
 ## 3 May 2021
 
 ### Removal of deprecated spreadsheet endpoints
