@@ -15,6 +15,16 @@ API changelog
 
 You must use the endpoints without `meetings/{meeting_id}` instead.
 
+## 30 August 2021
+
+### Removal of deprecated attachments endpoints
+
+* /api/organizations/{organization_id}/roles/{role_id}/attachments
+* /api/organizations/{organization_id}/roles/{role_id}/attachments/{publication_id}
+* /api/organizations/{organization_id}/roles/{role_id}/attachments/external
+
+Use the endpoints in https://app.holaspirit.com/api/doc/checklist#post--api-organizations-{organization_id}-attachments instead
+
 ## 3 May 2021
 
 ### Removal of deprecated spreadsheet endpoints
