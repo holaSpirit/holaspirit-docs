@@ -40,6 +40,7 @@ OKR (creation/update) :
 ```
 {
 'object' : 'objective',
+'id': '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
 'title' : 'title field of the OKR',
 'body' : 'description field of the OKR',
@@ -65,6 +66,7 @@ Action (creation/update) :
 ```
 {
 'object' : 'action',
+'id': '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
 'title' : 'title field of the action',
 'body' : 'description field of the action',
@@ -85,6 +87,7 @@ Checklist (creation/update) :
 ```
 {
 'object' : 'checklist',
+'id': '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
 'title' : 'title field of the checklist',
 'body' : 'description field of the checklist',
@@ -106,6 +109,7 @@ Metric (creation/update) :
 ```
 {
 'object' : 'metric',
+'id': '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
 'title' : 'title field of the metric',
 'body' : 'description field of the metric',
@@ -127,6 +131,7 @@ Publication (creation/update) :
 ```
 {
 'object' : 'publication',
+'id': '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
 'title' : 'title field of the publication',
 'body' : 'description field of the publication',
@@ -140,6 +145,7 @@ Policy (creation/update/deletion) :
 ```
 {
 'object' : 'policy',
+'id': '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
 'circle' : 'id of the circle',
 'url' : 'Link to the policy in Holaspirit'
@@ -149,6 +155,7 @@ Role/Circle (creation/update/deletion) :
 ```
 {
 'object' : 'role',
+'id': '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
 'purpose' : 'purpose',
 'circle' : 'id of the circle',
