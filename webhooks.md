@@ -10,7 +10,7 @@ Outgoing Webhooks
 A POST call will be done after each events.
 
 Data are encode in JSON, with this structures:
-Project (creation/update) :
+Project (create/update/delete):
 ```
 {
 'object' : 'project',
@@ -38,7 +38,7 @@ Project (creation/update) :
 'url' : 'Link to the project'
 }
 ```
-OKR (creation/update) :
+OKR (create/update/delete) :
 ```
 {
 'object' : 'objective',
@@ -65,7 +65,7 @@ OKR (creation/update) :
 'url' : 'Link to the OKR'
 }
 ```
-Action (creation/update) :
+Action (create/update/delete) :
 ```
 {
 'object' : 'action',
