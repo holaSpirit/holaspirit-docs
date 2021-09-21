@@ -14,6 +14,8 @@ Project (creation/update) :
 ```
 {
 'object' : 'project',
+'activity' : 'create | update | delete',
+'id' : '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
 'title' : 'title field of the project',
 'body' : 'description field of the project',
@@ -40,6 +42,7 @@ OKR (creation/update) :
 ```
 {
 'object' : 'objective',
+'activity' : 'create | update | delete',
 'id': '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
 'title' : 'title field of the OKR',
@@ -66,6 +69,7 @@ Action (creation/update) :
 ```
 {
 'object' : 'action',
+'activity' : 'create | update | delete',
 'id': '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
 'title' : 'title field of the action',
