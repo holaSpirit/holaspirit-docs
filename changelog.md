@@ -5,7 +5,7 @@ API changelog
 
 ## Date TBD
 
-### Deprecation of the following endpoints:
+### Removal of the following endpoints:
 
 * GET /api/organizations/{organization_id}/meetings/{meeting_id}/tensions
 * POST /api/organizations/{organization_id}/meetings/{meeting_id}/tensions
