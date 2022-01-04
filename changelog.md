@@ -3,7 +3,7 @@ API changelog
 
 [<<< Back](README.md)
 
-## Date TBD
+## 10 January 2022
 
 ### Removal of the following endpoints:
 
