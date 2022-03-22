@@ -3,6 +3,20 @@ API changelog
 
 [<<< Back](README.md)
 
+## Date TBD
+
+### "status=notarchived" is removed in GET projects
+
+You must replace :
+
+`/api/organizations/5cf6888a545480100a46de00/projects?status=notarchived` 
+
+by
+
+`/api/organizations/5cf6888a545480100a46de00/projects?status=current` 
+
+For the same result
+
 ## 10 January 2022
 
 ### Removal of the following endpoints:
