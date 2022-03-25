@@ -3,7 +3,7 @@ API changelog
 
 [<<< Back](README.md)
 
-## Date TBD
+## 4 April 2022
 
 ### "status=notarchived" is removed in GET projects
 
