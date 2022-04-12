@@ -45,3 +45,21 @@ if not r.ok:
 # Display the response
 json = r.json()
 print(json)
+currentOrganizationId = json['data']['settings']['currentOrganization']
+
+# request all roles of the current organization and save them in a dictionary
+offset = 0
+limit = 100
+total = 1000
+dict = dict()
+while (offset + limit < total):
+    r = requests.get(domain + "api/organizations/" + currentOrganizationId + "/roles?from=" + str(offset) + "&limit=" + str(limit), headers={
+        'Authorization': 'Bearer '+accessToken
+    })
+    offset += limit
+    json = r.json()
+    total = json['pagination']['totalItems']
+    for role in json['data']:
+        dict[role['id']] = {"name":role['name']}
+
+print(dict)
