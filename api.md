@@ -38,6 +38,8 @@ POST <https://app.holaspirit.com/oauth/v2/token>
 | `password`      | string | **Required** The Password                     |
 | `timezone`      | string | The Timezone (e.g.: "+02:00")                 |
 
+If the security is enforced on your organization, then only users with admin privilege can create a password and then use this endpoint to log in. (use the "forget password" form to create one)
+
 The client secret is not required for a public app (e.g. our web and mobile app).
 
 The default and public Client ID is:
