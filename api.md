@@ -51,7 +51,7 @@ CURL example with email and password:
 
 ```
 curl 'https://app.holaspirit.com/oauth/v2/token' \
---data-raw 'client_id=54cb79d0279871e1248b4567_400tdzqbdcowsskk08gws0wkwogck00w084w4s8w8gok08s0o8&grant_type=password&username=****&password=****'
+--data-raw 'client_id=****&client_secret=****&grant_type=password&username=****&password=****'
 ```
 
 #### From a refresh_token
