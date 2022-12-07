@@ -9,7 +9,7 @@ client_id = '54cb79d0279871e1248b4567_400tdzqbdcowsskk08gws0wkwogck00w084w4s8w8g
 client_secret = ''
 # end of configuration
 
-domain = 'https://app.holaspirit.com/';
+domain = 'https://app.holaspirit.com/'
 
 # Request to receive the access token
 r = requests.post(domain + "oauth/v2/token", {
