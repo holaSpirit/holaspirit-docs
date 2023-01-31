@@ -63,3 +63,10 @@ while (offset + limit < total):
         dict[role['id']] = {"name":role['name']}
 
 print(dict)
+
+# example of a PATCH
+#r = requests.patch(
+#    domain + '/api/organizations/'+currentOrganizationId+'/members/'+memberId,
+#    headers={'Authorization': 'Bearer '+accessToken},
+#    json={"phone":"+33 6 00 00 00 00"}
+#)
