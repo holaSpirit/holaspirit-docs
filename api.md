@@ -78,7 +78,7 @@ A `refresh_token` expires:
 
 * When it is used to request an `access_token`
 * When the member's password is changed
-* 1 year after it has been issued
+* 1 month after it has been issued
 
 #### Response
 
