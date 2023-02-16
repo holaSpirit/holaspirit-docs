@@ -149,13 +149,9 @@ Empty response (status code: 200)
 
 ### Access token usage
 
-The token should be send in the headers of the Request: Header: `Authorization: Bearer #################` (this works for all types of requests: GET POST PATCH PUT and DELETE)
+The token should be sent in the headers of the Request: Header: `Authorization: Bearer #################` (this works for all types of requests: GET POST PATCH PUT and DELETE)
 
-For GET there is also the option to add the token as a parameter: <https://app.holaspirit.com/api/me?access_token=#################>
-  
-Warning: If a token is passed in the parameters AND in the headers for the same request, the request will fail.
-
-CURL GET example (token in the headers): 
+CURL GET example:
 
 ```
 curl 'https://app.holaspirit.com/api/organizations/********' \
@@ -212,7 +208,7 @@ For example:
 
 ### Form errors
 
-The form errors follow the same format than others error.
+The form errors follow the same format as others error.
 The response status code is 400.
 
 ```json

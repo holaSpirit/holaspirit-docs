@@ -3,6 +3,12 @@ API changelog
 
 [<<< Back](README.md)
 
+## Date TBD
+
+For security reasons, it is not possible to send the access_token as a GET parameter. Send it in the headers instead.
+
+[See example of token in the headers.](api.md#access-token-usage)
+
 ## 4 April 2022
 
 ### "status=notarchived" is removed in GET projects
