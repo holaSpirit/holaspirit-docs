@@ -3,7 +3,7 @@ API changelog
 
 [<<< Back](README.md)
 
-## Date TBD
+## 22 February 2023
 
 For security reasons, it is not possible to send the access_token as a GET parameter. Send it in the headers instead.
 
