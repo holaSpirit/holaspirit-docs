@@ -3,6 +3,12 @@ API changelog
 
 [<<< Back](README.md)
 
+## 6 March 2023
+
+As part of the update of our API, the `task` entity has been replaced by the `job` entity
+
+[Check out our API documentation to view what's been updated!]((download-export.md))
+
 ## 22 February 2023
 
 For security reasons, it is not possible to send the access_token as a GET parameter. Send it in the headers instead.
