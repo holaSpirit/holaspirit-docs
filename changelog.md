@@ -7,7 +7,7 @@ API changelog
 
 As part of the update of our API, the `task` entity has been replaced by the `job` entity
 
-[Check out our API documentation to view what's been updated!]((download-export.md))
+[Check out our API documentation to view what's been updated!](download-export.md)
 
 ## 22 February 2023
 
