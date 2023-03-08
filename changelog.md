@@ -3,6 +3,14 @@ API changelog
 
 [<<< Back](README.md)
 
+## 8 March 2023
+
+The core member / non core member parameter in assignations to a role has been removed.
+
+On the circle level, it is possible to choose `decisionMaker=true` (old: `coreMember`) or `decisionMaker=false` (old: `nonCoreMember`).
+
+[See the endpoint documentation](https://app.holaspirit.com/api/doc/role#post--api-organizations-{organization_id}-circles-{circle_id}-members)
+
 ## 6 March 2023
 
 As part of the update of our API, the `task` entity has been replaced by the `job` entity
