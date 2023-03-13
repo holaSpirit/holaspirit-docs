@@ -3,6 +3,12 @@ API changelog
 
 [<<< Back](README.md)
 
+## 20 March 2023
+
+For security reasons, it is not possible to send the access_token as a GET parameter. Send it in the headers instead.
+
+[See example of token in the headers.](api.md#access-token-usage)
+
 ## 8 March 2023
 
 The core member / non core member parameter in assignations to a role has been removed.
@@ -16,12 +22,6 @@ On the circle level, it is possible to choose `decisionMaker=true` (old: `coreMe
 As part of the update of our API, the `task` entity has been replaced by the `job` entity
 
 [Check out our API documentation to view what's been updated!](download-export.md)
-
-## 22 February 2023
-
-For security reasons, it is not possible to send the access_token as a GET parameter. Send it in the headers instead.
-
-[See example of token in the headers.](api.md#access-token-usage)
 
 ## 4 April 2022
 
