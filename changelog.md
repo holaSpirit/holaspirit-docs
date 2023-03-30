@@ -3,6 +3,17 @@ API changelog
 
 [<<< Back](README.md)
 
+## 2 May 2023
+
+The deprecated URLs to download files (PDF or Spreadsheet) are not availbable any more:
+
+| Deprecated                                                                                                  | New                                                                                                |
+|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| ~https://app.holaspirit.com/api/public/export/organizations/{organization_id}/jobs/{job_id}/download~       | https://app.holaspirit.com/api/export/organizations/{organization_id}/jobs/{job_id}/download       |
+| ~https://app.holaspirit.com/api/public/pdf/organizations/{organization_id}/meetings/{meeting_id}~           | https://app.holaspirit.com/api/pdf/organizations/{organization_id}/meetings/{meeting_id}           |
+| ~https://app.holaspirit.com/api/public/pdf/organizations/{organization_id}/roles~                           | https://app.holaspirit.com/api/pdf/organizations/{organization_id}/roles                           |
+| ~https://app.holaspirit.com/api/public/spreadsheet/organizations/{organization_id}/templates/{template_id}~ | https://app.holaspirit.com/api/spreadsheet/organizations/{organization_id}/templates/{template_id} |
+
 ## 21 March 2023
 
 For security reasons, it is not possible to send the access_token as a GET parameter. Send it in the headers instead.

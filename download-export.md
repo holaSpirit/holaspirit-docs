@@ -58,7 +58,7 @@ The job is available for 1 week, after that it is deleted.
 Using the job id from Steps 1 & 2, you can now download the file by calling:
 
 ```
-GET https://app.holaspirit.com/api/public/export/organizations/{organization_id}/jobs/{job_id}/download
+GET https://app.holaspirit.com/api/export/organizations/{organization_id}/jobs/{job_id}/download
 ```
 
 And you are done!
