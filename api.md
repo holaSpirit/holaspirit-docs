@@ -14,7 +14,7 @@ header on all requests.
 Read Only Access
 -------------
 
-If you need a read-only access to the API, just ask for a read-only access token to the assistance in <https://app.holaspirit.com>
+If you need a read-only access to the API, go to the "Administration" and choose "API", you can generate a token. (the token starts with "api:", do not remove those characters)
 
 With this token information you can simply use every GET endpoint of your organization, as described in [Access token usage](#access-token-usage)
 
