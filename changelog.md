@@ -3,6 +3,14 @@ API changelog
 
 [<<< Back](README.md)
 
+## Date TBD
+
+All actions and projects endpoint will be deprecated soon.
+
+After this date, you will need to use the tasks endpoint instead.
+
+They are structured in the same way, when creating a task just add `"taskType":"action"` if you to create an action, and `"taskType":"project"` for a project.
+
 ## 2 May 2023
 
 The deprecated URLs to download files (PDF or Spreadsheet) are not availbable any more:
