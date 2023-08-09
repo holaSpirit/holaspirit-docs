@@ -3,11 +3,11 @@ API changelog
 
 [<<< Back](README.md)
 
-## Date TBD
+## 8 August 2023
 
-All actions and projects endpoint will be deprecated soon.
+All actions and projects endpoint are deprecated soon.
 
-After this date, you will need to use the tasks endpoint instead.
+You need to use the tasks endpoint instead.
 
 They are structured in the same way, when creating a task just add `"taskType":"action"` if you to create an action, and `"taskType":"project"` for a project.
 
