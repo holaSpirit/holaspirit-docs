@@ -176,7 +176,7 @@ Pager
 When getting a list of objects, you can use a pager with `page=` (default: 1) and `count=` (default: 50) to get all the items.
 
 **Limitation:**
-This pager can only get the first 100.000 items. If you hit this limit, you need to use a different filter on your request.
+This pager can only get the first 10.000 items. If you hit this limit, you need to use a different filter on your request.
 
 Errors
 ------
