@@ -11,6 +11,8 @@ You need to use the tasks endpoint instead.
 
 They are structured in the same way, when creating a task just add `"taskType":"action"` if you to create an action, and `"taskType":"project"` for a project.
 
+[See the api doc for a list of all endpoints.](https://app.holaspirit.com/api/doc/project)
+
 ## 2 May 2023
 
 The deprecated URLs to download files (PDF or Spreadsheet) are not availbable any more:
