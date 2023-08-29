@@ -170,6 +170,21 @@ curl 'https://holon.holaspirit.com/api/organizations/********/custom-fields' \
 --data-raw '{"name":"testCF","customFieldType":"text","applyTo":"role"}'
 ```
 
+Rate limit
+----------
+
+There is a limit of 500 requests to the API every 5 minutes.
+
+You can see the detailed data in the header of every API request : 
+
+```
+x-ratelimit-limit: 500
+x-ratelimit-remaining: 498
+x-ratelimit-reset: 293
+```
+
+Once your `x-ratelimit-remaining` goes to 0, you will receive HTTP code: `429 Too Many Requests`, until the period resets (as indicated by `x-ratelimit-reset` in seconds)
+
 Pager
 -----
 
