@@ -3,6 +3,12 @@ API changelog
 
 [<<< Back](README.md)
 
+## 7 Septembre 2023
+
+The `media` object containing the avatar of the member is not available in `linked` any more.
+
+The URL of the avatar is still available in `avatarUrl` in the `member` object.
+
 ## 6 Septembre 2023
 
 The rate limit for API usage is now 1000 requests every 5 minutes.
