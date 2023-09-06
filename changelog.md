@@ -3,6 +3,16 @@ API changelog
 
 [<<< Back](README.md)
 
+## 6 Septembre 2023
+
+The rate limit for API usage is now 1000 requests every 5 minutes.
+
+When you reach this limit, every request will have a `429 Too Many Requests` response. You will have to wait until the 5 minutes window expires.
+
+The limit will be lowered to 500 requests every 5 minutes in the future.
+
+[Read more](api.md#rate-limit)
+
 ## 8 August 2023
 
 All actions and projects endpoint are deprecated soon.
