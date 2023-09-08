@@ -3,6 +3,36 @@ API changelog
 
 [<<< Back](README.md)
 
+## 12 September 2023
+
+Removal of some properties of the member : 
+
+### isCore & isCoreWithoutRole
+```json
+{
+    "circle": {
+        "circle": "566ff608d796df94058b46c8",
+        "circleAdmin": true,
+        "isDecisionMaker": true,
+        "isCore": true,
+        "isCoreWithoutRole": false
+    }
+}
+```
+
+- The `isCore` property will be deleted, use `isDecisionMaker` instead.
+- The `isCoreWithoutRole` property will be deleted, the value is always `false`.
+
+### integrations
+```json
+{
+    "integrations": {
+        "projects": true
+    }
+}
+```
+The `integrations` property will be deleted, the info can be found in the webhooks.
+
 ## 11 September 2023
 
 Pagination will be enabled on the routes : 
