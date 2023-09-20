@@ -3,6 +3,24 @@ API changelog
 
 [<<< Back](README.md)
 
+## 25 September 2023
+
+Replacement of `GET roles?view=diagram` by `GET roles-diagram`
+
+private :
+
+-    Old URL : GET `/api/organizations/{organization_id}/roles?view=diagram`
+-    New URL : GET `/api/organizations/{organization_id}/roles-diagram`
+
+public :
+
+-    Old URL : GET `/api/public/organizations/{organization_slug}/roles?view=diagram`
+-    New URL : GET `/api/public/organizations/{organization_slug}/roles-diagram`
+
+After 25 September, the old URLs will return an error when using `view=diagram`, calls without this parameter are not affected and can still be used.
+
+The new URLs don't accept any parameter, if you need to use some parameters, keep the old URL and remove the `view=diagram` part.
+
 ## 12 September 2023
 
 Removal of some properties of the member : 
