@@ -3,6 +3,18 @@ API changelog
 
 [<<< Back](README.md)
 
+## 09 October 2023 !!!! Todo: Issue à créer et date à modifier en fonction de la review etc ;)
+
+Deleting timespent information on `GET circles`
+Adding a new URL to get same information that `GET circles` plus timespent information `GET circles-timespent`
+
+-    New URL : GET `/api/organizations/{organization_id}/circles-timespent`
+
+After 09 October, the old URL will not return `timespent` information.
+
+The new URL accepts `member`, `circle`, `sort`, `page` and `count` parameters like the Old URL.
+
+
 ## 28 September 2023
 
 Replacement of `GET roles?view=diagram` by `GET roles-diagram`
