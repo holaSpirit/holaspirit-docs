@@ -3,7 +3,7 @@ API changelog
 
 [<<< Back](README.md)
 
-## 28 September 2023
+## 2 October 2023
 
 Replacement of `GET roles?view=diagram` by `GET roles-diagram`
 
