@@ -11,18 +11,17 @@ A POST call will be done after each events.
 
 Data are encode in JSON, with this structures:
 
-Project (create/update/delete):
+Task (create/update/delete):
 ```
 {
-'object' : 'project',
+'object' : 'task',
 'activity' : 'create | update | delete',
 'id' : '5f7139d99b62fd692133406f',
 'text' : 'description of the event',
-'title' : 'title field of the project',
-'body' : 'description field of the project',
-'link' : 'link field of the project',
+'title' : 'title field of the task',
+'body' : 'description field of the task',
 'circle' : 'id of the circle',
- 'members': [
+'members': [
         {
             "id": "5f7139d99b62fd692133406f",
             "member": "John Doe",
@@ -36,7 +35,7 @@ Project (create/update/delete):
     ]
 'role' : 'Name of the role',
 'status' : 'current' or 'waiting' or 'future' or 'done',
-'url' : 'Link to the project'
+'url' : 'Link to the task'
 }
 ```
 OKR (create/update/delete) :
@@ -66,28 +65,6 @@ OKR (create/update/delete) :
 'url' : 'Link to the OKR'
 }
 ```
-Action (create/update/delete) :
-```
-{
-'object' : 'action',
-'activity' : 'create | update | delete',
-'id': '5f7139d99b62fd692133406f',
-'text' : 'description of the event',
-'title' : 'title field of the action',
-'body' : 'description field of the action',
-'link' : 'link field of the action',
-'circle' : 'id of the circle',
- 'members': [
-        {
-            "id": "5f7139d99b62fd692133406f",
-            "member": "John Doe",
-            "action": "assign"
-        }
-    ]
-'role' : 'Name of the role',
-'status' : 'current' or 'done'
-}
-```
 Checklist (creation/update) :
 ```
 {
@@ -96,7 +73,6 @@ Checklist (creation/update) :
 'text' : 'description of the event',
 'title' : 'title field of the checklist',
 'body' : 'description field of the checklist',
-'link' : 'link field of the checklist',
 'circle' : 'id of the circle',
 'members': [
         {
@@ -118,7 +94,6 @@ Metric (creation/update) :
 'text' : 'description of the event',
 'title' : 'title field of the metric',
 'body' : 'description field of the metric',
-'link' : 'link field of the metric',
 'circle' : 'id of the circle',
 'members': [
         {
@@ -140,7 +115,6 @@ Publication (creation/update) :
 'text' : 'description of the event',
 'title' : 'title field of the publication',
 'body' : 'description field of the publication',
-'link' : 'link field of the publication',
 'circle' : 'id of the circle',
 'member' : 'Name of assigned member',
 'role' : 'Name of the role'
