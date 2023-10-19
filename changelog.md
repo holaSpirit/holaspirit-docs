@@ -3,17 +3,27 @@ API changelog
 
 [<<< Back](README.md)
 
+## 26 October 2023
+
+Deleting custom fields on `GET roles`
+Adding a new URL to get same information that `GET roles` plus custom fields `GET roles-custom-fields`
+
+-    New URL : GET `/api/organizations/{organization_id}/roles-custom-fields` [doc](https://app.holaspirit.com/api/doc/role#get--api-organizations-{organization_id}-roles-custom-fields)
+
+After 26 October, the old URL will not return custom fields.
+
+The new URL accepts the same parameters as the old URL.
+
 ## 18 October 2023
 
 Deleting timespent information on `GET circles`
 Adding a new URL to get same information that `GET circles` plus timespent information `GET circles-timespent`
 
--    New URL : GET `/api/organizations/{organization_id}/circles-timespent`
+-    New URL : GET `/api/organizations/{organization_id}/circles-timespent` [doc](https://app.holaspirit.com/api/doc/role#get--api-organizations-{organization_id}-circles-timespent)
 
 After 18 October, the old URL will not return `timespent` information.
 
-The new URL accepts `member`, `circle`, `sort`, `page` and `count` parameters like the Old URL.
-
+The new URL accepts `member`, `circle`, `sort`, `page` and `count` parameters like the old URL.
 
 ## 2 October 2023
 
