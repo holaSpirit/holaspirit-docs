@@ -10,7 +10,7 @@ They no longer will be returning this information : `linked` will no longer cont
 
 You can still access the list of roles of a member through roles endpoint, filtering by member.
 Example : `GET /organizations/{organization_id}/roles?member={member_id}`.
-Moreover, listing members through `GET /organizations/{organization_id}/members` or `GET /organizations/{organization_public_slug}/roles` still serialize a `memberInRoles` attribute, that lists role identifiers this members is assigned to.
+Moreover, listing members through `GET /organizations/{organization_id}/members` or `GET /public/organizations/{organization_public_slug}/members` still serialize a `memberInRoles` attribute, that lists role identifiers this members is assigned to.
 
 ## 26 October 2023
 
