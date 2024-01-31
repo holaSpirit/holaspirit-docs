@@ -3,9 +3,9 @@ API changelog
 
 [<<< Back](README.md)
 
-## 01 February 2024
+## 07 February 2024
 
-On 01 February 2024, we are modifying all members endpoint that were returning `assignedMembers` in `linked` data.
+On 07 February 2024, we are modifying all /members endpoints that were returning `assignedMembers` in `linked` data.
 They no longer will be returning this information : `linked` will no longer contain `assignedMember`.
 
 You can still access the list of roles of a member through roles endpoint, filtering by member.
