@@ -3,6 +3,11 @@ API changelog
 
 [<<< Back](README.md)
 
+## 20 May 2024
+
+Modification of the task serialization : they will no longer have the `parentName`, `parentContext` attributes.
+However, we are serializing the whole `parent` task (if any) in `linked` data.
+
 ## 07 February 2024
 
 On 07 February 2024, we are modifying all /members endpoints that were returning `assignedMembers` in `linked` data.
