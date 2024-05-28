@@ -3,6 +3,10 @@ API changelog
 
 [<<< Back](README.md)
 
+## 28 May 2024
+
+Modification of the export spreadsheet, remove `type` on task tab, and add `board` tab
+
 ## 20 May 2024
 
 Modification of the task serialization : they will no longer have the `parentName`, `parentContext` attributes.
