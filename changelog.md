@@ -3,6 +3,14 @@ API changelog
 
 [<<< Back](README.md)
 
+## 5 June 2024
+
+The `project` and `action` tabs in export that are deprecated since August 2023.
+
+There are now removed and you must now use `task` instead.
+
+[See export endpoints](https://app.holaspirit.com/api/doc/export#post--api-async-organizations-{organization_id}-spreadsheet)
+
 ## 28 May 2024
 
 Modification of the export spreadsheet, remove `type` on task tab, and add `board` tab
