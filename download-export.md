@@ -15,7 +15,7 @@ Call:
 POST https://app.holaspirit.com/api/async/organizations/{organization_id}/spreadsheet
 ```
 
-With parameter `tabs=` indicating what will be exported, it's possible to export many tabs in a spreadsheet. The complete list of possible tabs is listed in [the documentation](https://app.holaspirit.com/api/doc/async#post--api-async-organizations-{organization_id}-spreadsheet)
+With parameter `tabs=` indicating what will be exported, it's possible to export many tabs in a spreadsheet. The complete list of possible tabs is listed in [the documentation](https://app.holaspirit.com/api/doc/export#post--api-async-organizations-{organization_id}-spreadsheet)
 
 For example: 
 
