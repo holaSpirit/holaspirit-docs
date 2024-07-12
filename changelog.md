@@ -3,6 +3,15 @@ API changelog
 
 [<<< Back](README.md)
 
+## 19 July 2024
+
+The argument `meeting` has been removed from : 
+`PATCH /organizations/{organization_id}/tensions/{tension_id}`
+
+Instead, use:
+
+`POST /organizations/{organization_id}/tensions/{tension_id}/meetings` ([doc](https://app.holaspirit.com/api/doc/tension#post--api-organizations-{organization_id}-tensions-{tension_id}-meetings))
+
 ## 5 June 2024
 
 The `project` and `action` tabs in export that are deprecated since August 2023.
