@@ -173,13 +173,13 @@ curl 'https://holon.holaspirit.com/api/organizations/********/custom-fields' \
 Rate limit
 ----------
 
-There is a limit of 500 requests to the API every 5 minutes.
+There is a limit of 250 requests to the API every 5 minutes.
 
 You can see the detailed data in the header of every API request : 
 
 ```
-x-ratelimit-limit: 500
-x-ratelimit-remaining: 498
+x-ratelimit-limit: 250
+x-ratelimit-remaining: 248
 x-ratelimit-reset: 293
 ```
 
