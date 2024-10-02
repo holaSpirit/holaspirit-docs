@@ -3,6 +3,12 @@ API changelog
 
 [<<< Back](README.md)
 
+## 24 August 2024
+
+`decisionMakers` and `nonDecisionMakers` has been removed from `GET /organizations/{organization_id}/circles` due to performance issues.
+
+You still can get those field if you add `view=full` in the query params of the request
+
 ## 19 July 2024
 
 The argument `meeting` has been removed from : 
