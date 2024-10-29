@@ -3,6 +3,15 @@ API changelog
 
 [<<< Back](README.md)
 
+## 29 October
+
+- Removed `consolidatedRoles` and `consolidatedMembers` from `Context` entity serialization 
+- Remove endpoints `/api/organizations/{organization_id}/boards/{board_id}/context` and `/api/organizations/{organization_id}/tasks/{task_id}/context`
+
+**Alternatives and recommandations**
+
+You can get all `roles` and `members` of a `Context` when you concate respectively all `roles` and `members` in each `funnel` in the `funnels` array of the `Context` 
+
 ## 24 August 2024
 
 `decisionMakers` and `nonDecisionMakers` has been removed from `GET /organizations/{organization_id}/circles` and `GET /organizations/{organization_id}/circles-timespent` due to performance issues.
