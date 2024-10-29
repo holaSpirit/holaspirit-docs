@@ -3,7 +3,7 @@ API changelog
 
 [<<< Back](README.md)
 
-## 29 October
+## 29 October 2024
 
 - Removed `consolidatedRoles` and `consolidatedMembers` from `Context` entity serialization 
 - Remove endpoints `/api/organizations/{organization_id}/boards/{board_id}/context` and `/api/organizations/{organization_id}/tasks/{task_id}/context`
