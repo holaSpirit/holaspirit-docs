@@ -3,6 +3,13 @@ API changelog
 
 [<<< Back](README.md)
 
+## 12 November 2024
+
+- Remove `isLinkedToCircle` from Boards in all API responses that contain boards
+- Remove columns  `Linked Circle ID` & `Linked Circle` from Boards export
+
+The info about the circle of the board is now available in the context (API or export)
+
 ## 29 October 2024
 
 - Removed `consolidatedRoles` and `consolidatedMembers` from `Context` entity serialization 
