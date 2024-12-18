@@ -40,6 +40,7 @@ Task (create/update/delete):
       }
     ]
   },
+  // deprecated
   "circle": "id of the circle",
   "members": [
     {
