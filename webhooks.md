@@ -14,28 +14,46 @@ Data are encode in JSON, with this structures:
 Task (create/update/delete):
 ```
 {
-'object' : 'task',
-'activity' : 'create | update | delete',
-'id' : '5f7139d99b62fd692133406f',
-'text' : 'description of the event',
-'title' : 'title field of the task',
-'body' : 'description field of the task',
-'circle' : 'id of the circle',
-'members': [
-        {
+  "object": "task",
+  "activity": "create | update | delete",
+  "id": "5f7139d99b62fd692133406f",
+  "text": "description of the event",
+  "title": "title field of the task",
+  "body": "description field of the task",
+  "status": "current | waiting | future | done",
+  "url": "Link to the task",
+  "context": {
+    "funnels": [
+      {
+        "circle": "name of the circle",
+        "members": [
+          {
             "id": "5f7139d99b62fd692133406f",
-            "member": "John Doe",
-            "action": "assign"
-        },
-        {
+            "member": "John Doe"
+          },
+          {
             "id": "5f7139d99b62fd6921334070",
-            "member": "Jane Doe",
-            "action": "assign"
-        }
+            "member": "Jane Doe"
+          }
+        ],
+        "isSync": "yes"
+      }
     ]
-'role' : 'Name of the role',
-'status' : 'current' or 'waiting' or 'future' or 'done',
-'url' : 'Link to the task'
+  },
+  "circle": "id of the circle",
+  "members": [
+    {
+      "id": "5f7139d99b62fd692133406f",
+      "member": "John Doe",
+      "action": "assign"
+    },
+    {
+      "id": "5f7139d99b62fd6921334070",
+      "member": "Jane Doe",
+      "action": "assign"
+    }
+  ],
+  "role": "Name of the role"
 }
 ```
 OKR (create/update/delete) :
