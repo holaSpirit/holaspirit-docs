@@ -3,6 +3,18 @@ API changelog
 
 [<<< Back](README.md)
 
+## 16 January 2025
+
+- Removed some data from linked `roles` on GET `api/organizations/{organization_id}/roles/{role_id}`. See [issue](https://github.com/holaSpirit/holaspirit-docs/issues/36) for details.
+
+## 15 January 2025
+
+- Updated task assignation : `circle`, `role`, `members` from tasks are impacted and are now part of the `context`. See [issue](https://github.com/holaSpirit/holaspirit-docs/issues/34) for details.
+
+## 14 January 2025
+
+- Removed `roles` & `circles` from `linked` datas on GET `/api/organizations/{organization_id}/translations`
+
 ## 12 November 2024
 
 - Remove `isLinkedToCircle` from Boards in all API responses that contain boards
