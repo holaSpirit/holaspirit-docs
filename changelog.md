@@ -3,6 +3,12 @@ API changelog
 
 [<<< Back](README.md)
 
+## 27 January 2025
+
+Removal of `basecampAccounts` and `jiraProjects` in GET `api/organizations/{organization_id}/webhooks/{webhook_id}` and GET `api/organizations/{organization_id}/webhooks`.
+
+Get those data from: <https://app.holaspirit.com/api/doc/webhook#get--api-organizations-{organization_id}-webhooks-{webhook_id}-service-data>
+
 ## 16 January 2025
 
 - Removed some data from linked `roles` on GET `api/organizations/{organization_id}/roles/{role_id}`. See [issue](https://github.com/holaSpirit/holaspirit-docs/issues/36) for details.
