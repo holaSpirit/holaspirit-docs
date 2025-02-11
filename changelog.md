@@ -3,7 +3,7 @@ API changelog
 
 [<<< Back](README.md)
 
-## 19 Februry 2025
+## 19 February 2025
 
 Skills and Locations are now custom fields. See [issue](https://github.com/holaSpirit/holaspirit-docs/issues/39) for details.
 
