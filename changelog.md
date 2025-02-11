@@ -3,6 +3,10 @@ API changelog
 
 [<<< Back](README.md)
 
+## 19 Februry 2025
+
+Skills and Locations are now custom fields. See [issue](https://github.com/holaSpirit/holaspirit-docs/issues/39) for details.
+
 ## 27 January 2025
 
 Removal of `basecampAccounts` and `jiraProjects` in GET `api/organizations/{organization_id}/webhooks/{webhook_id}` and GET `api/organizations/{organization_id}/webhooks`.
