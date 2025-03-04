@@ -3,6 +3,10 @@ API changelog
 
 [<<< Back](README.md)
 
+## 4 march 2025
+
+Remove field `stats` in `Role` serialization impacted GET `role`
+
 ## 19 February 2025
 
 Skills and Locations are now custom fields. See [issue](https://github.com/holaSpirit/holaspirit-docs/issues/39) for details.
