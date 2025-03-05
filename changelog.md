@@ -3,7 +3,11 @@ API changelog
 
 [<<< Back](README.md)
 
-## 4 march 2025
+## 5 March 2025
+
+The TimeFrame `objectiveCount` field is removed when used in linked data. See [issue](https://github.com/holaSpirit/holaspirit-docs/issues/40) for details.
+
+## 4 March 2025
 
 Remove field `stats` in `Role` serialization impacted GET `role`
 
