@@ -3,6 +3,10 @@ API changelog
 
 [<<< Back](README.md)
 
+## 11 July 2025
+
+The route `/chart/organizations/{organization_id}/circles/{circle_id}/roles` will be removed. Data from this route could be fetch from other routes. 
+
 ## 5 March 2025
 
 The TimeFrame `objectiveCount` field is removed when used in linked data. See [issue](https://github.com/holaSpirit/holaspirit-docs/issues/40) for details.
