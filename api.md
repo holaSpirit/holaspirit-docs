@@ -18,6 +18,8 @@ If you need a read-only access to the API, go to the "Administration" and choose
 
 With this token information you can simply use every GET endpoint of your organization, as described in [Access token usage](#access-token-usage)
 
+This token is linked to the organization, only endpoints starting with `/api/organizations/{organization_id}` will work. (If you try `/api/me` you will get a 403 error)
+
 If you need a read-write access, read the next section.
 
 Authentication for Read-Write
